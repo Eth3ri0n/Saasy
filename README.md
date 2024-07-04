@@ -3,19 +3,16 @@
 
 Saas template
 
-
 ## Screenshots
 
 ![Saasy App Screenshot start](./Saasy-Home_screenshot.png)
 ![Saasy App Screenshot end](./Saasy-Home_screenshot-end.png)
-
 
 ## Tech Stack
 
 **Client:** HTML, CSS, TailwindCSS
 
 **Server:** Node
-
 
 ## Run Locally
 
@@ -43,8 +40,6 @@ Start Tailwindcss
   npm run start
 ```
 
-
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
