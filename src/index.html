@@ -25,11 +25,13 @@
   </head>
 
   <body
-    class="min-h-screen bg-gradient-to-r from-blue-500 to-purple-500 p-2 text-slate-600 sm:p-8"
+    class="min-h-screen bg-gradient-to-r from-blue-500 to-purple-500 p-2 text-slate-600 sm:p-8 dark:text-slate-200"
   >
-    <div class="container mx-auto min-h-screen rounded-2xl bg-white">
+    <div
+      class="container mx-auto min-h-screen rounded-2xl bg-white dark:bg-slate-800"
+    >
       <header
-        class="relative grid grid-cols-[50px_50px_1fr] items-center border-b px-6 py-8 sm:grid-cols-3 sm:px-12"
+        class="relative grid grid-cols-[50px_50px_1fr] items-center rounded-ss-2xl rounded-se-2xl border-b px-6 py-8 sm:grid-cols-3 sm:px-12 dark:border-none dark:bg-slate-950"
       >
         <div id="triggerMenu" class="p-2 pl-0 sm:!hidden">
           <i class="fa-solid fa-bars fa-lg"></i>
@@ -65,10 +67,12 @@
         </ul>
       </header>
       <div
-        class="flex flex-col-reverse justify-between gap-y-6 border-b px-6 py-8 font-bold sm:flex-row sm:items-center sm:gap-y-0 sm:px-12"
+        class="flex flex-col-reverse justify-between gap-y-6 border-b px-6 py-8 font-bold sm:flex-row sm:items-center sm:gap-y-0 sm:px-12 dark:border-0"
       >
         <div class="flex flex-col gap-y-6 sm:flex-row sm:gap-y-0">
-          <p class="text-slate-950 sm:border-r sm:pr-3">Cashflow</p>
+          <p class="text-slate-950 sm:border-r sm:pr-3 dark:text-slate-200">
+            Cashflow
+          </p>
           <ul class="flex justify-between font-bold">
             <a
               href="#"
@@ -93,14 +97,14 @@
         </button>
       </div>
       <div
-        class="mb-12 grid grid-cols-1 divide-y border-b sm:grid-cols-2 sm:divide-x sm:divide-y-0 lg:grid-cols-4"
+        class="mb-12 grid grid-cols-1 divide-y border-b sm:grid-cols-2 sm:divide-x sm:divide-y-0 lg:grid-cols-4 dark:divide-slate-600 dark:border-0 dark:bg-slate-950"
       >
         <div class="p-12 text-slate-400">
           <div class="mb-2 flex justify-between text-sm font-bold">
             <h4>Income</h4>
             <p>&plus;9&period;40&percnt;</p>
           </div>
-          <p class="text-4xl text-slate-950">
+          <p class="text-4xl text-slate-950 dark:text-slate-200">
             &dollar;&nbsp;810&comma;182&period;00
           </p>
         </div>
@@ -109,7 +113,7 @@
             <h4>Overdue Invoices</h4>
             <p class="text-red-500">&plus;15&period;22&percnt;</p>
           </div>
-          <p class="text-4xl text-slate-950">
+          <p class="text-4xl text-slate-950 dark:text-slate-200">
             &dollar;&nbsp;24&comma;202&period;00
           </p>
         </div>
@@ -118,7 +122,7 @@
             <h4>Outstanding Invoices</h4>
             <p>&minus;6&period;50&percnt;</p>
           </div>
-          <p class="text-4xl text-slate-950">
+          <p class="text-4xl text-slate-950 dark:text-slate-200">
             &dollar;&nbsp;410&comma;444&period;00
           </p>
         </div>
@@ -127,16 +131,16 @@
             <h4>Expenses</h4>
             <p class="text-red-500">&plus;10&period;30&percnt;</p>
           </div>
-          <p class="text-4xl text-slate-950">
+          <p class="text-4xl text-slate-950 dark:text-slate-200">
             &dollar;&nbsp;44&comma;300&period;00
           </p>
         </div>
       </div>
-      <div class="border-b border-slate-100 px-6 py-8 font-bold sm:px-12">
+      <div class="border-b border-slate-100 px-6 py-8 font-bold dark:border-none sm:px-12">
         Recent activities
       </div>
-      <p class="border-b bg-gray-50 px-6 py-2 font-bold sm:px-12">Today</p>
-      <ul class="border-b px-6 text-sm sm:px-12 sm:text-base">
+      <p class="border-b bg-gray-50 dark:bg-slate-950 dark:border-none px-6 py-2 font-bold sm:px-12">Today</p>
+      <ul class="border-b dark:border-none px-6 text-sm sm:px-12 sm:text-base">
         <li
           class="grid grid-cols-2 border-b py-4 sm:grid-cols-[50px_repeat(3,_1fr)]"
         >
@@ -159,7 +163,8 @@
           <div class="justify-self-end text-right">
             <h4 class="mb-2 font-bold text-sky-500">View transaction</h4>
             <p class="text-sm text-slate-400">
-              Website invoice <span class="text-slate-950">#00290</span>
+              Website invoice
+              <span class="text-slate-950 dark:text-slate-200">#00290</span>
             </p>
           </div>
         </li>
@@ -185,7 +190,8 @@
           <div class="justify-self-end text-right">
             <h4 class="mb-2 font-bold text-sky-500">View transaction</h4>
             <p class="text-sm text-slate-400">
-              Website invoice <span class="text-slate-950">#00290</span>
+              Website invoice
+              <span class="text-slate-950 dark:text-slate-200">#00290</span>
             </p>
           </div>
         </li>
@@ -209,12 +215,13 @@
           <div class="justify-self-end text-right">
             <h4 class="mb-2 font-bold text-sky-500">View transaction</h4>
             <p class="text-sm text-slate-400">
-              Website invoice <span class="text-slate-950">#00290</span>
+              Website invoice
+              <span class="text-slate-950 dark:text-slate-200">#00290</span>
             </p>
           </div>
         </li>
       </ul>
-      <p class="border-b bg-gray-50 px-6 py-2 font-bold sm:px-12">Yesterday</p>
+      <p class="border-b bg-gray-50 px-6 py-2 dark:bg-slate-950 dark:border-none font-bold sm:px-12">Yesterday</p>
       <ul class="px-6 text-sm sm:px-12 sm:text-base">
         <li
           class="grid grid-cols-2 border-b py-4 sm:grid-cols-[50px_repeat(3,_1fr)]"
@@ -238,7 +245,8 @@
           <div class="justify-self-end text-right">
             <h4 class="mb-2 font-bold text-sky-500">View transaction</h4>
             <p class="text-sm text-slate-400">
-              Website invoice <span class="text-slate-950">#00290</span>
+              Website invoice
+              <span class="text-slate-950 dark:text-slate-200">#00290</span>
             </p>
           </div>
         </li>
@@ -264,7 +272,8 @@
           <div class="justify-self-end text-right">
             <h4 class="mb-2 font-bold text-sky-500">View transaction</h4>
             <p class="text-sm text-slate-400">
-              Website invoice <span class="text-slate-950">#00290</span>
+              Website invoice
+              <span class="text-slate-950 dark:text-slate-200">#00290</span>
             </p>
           </div>
         </li>
@@ -288,7 +297,8 @@
           <div class="justify-self-end text-right">
             <h4 class="mb-2 font-bold text-sky-500">View transaction</h4>
             <p class="text-sm text-slate-400">
-              Website invoice <span class="text-slate-950">#00290</span>
+              Website invoice
+              <span class="text-slate-950 dark:text-slate-200">#00290</span>
             </p>
           </div>
         </li>
